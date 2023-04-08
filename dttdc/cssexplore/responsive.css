@@ -1,0 +1,321 @@
+#load {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff url(https://www.delhitourism.gov.in/delhitourism/images/loading.gif) no-repeat center center;
+}
+@media (min-width: 1400px){
+	
+}
+@media (min-width: 1650px){
+	
+	
+}
+@media (max-width: 1350px){
+	
+}
+
+@media (max-width: 1280px){
+	.owl-prev span, .owl-next span {
+        height: 40px;
+        width: 35px;
+        background-size: 22px;
+    }
+    
+    button.owl-prev{
+        left: 10px;
+    }
+    button.owl-next {
+        right: 0;
+    }
+
+}
+
+@media (max-width: 1200px){
+	.logoImgBx {
+        margin-left: 10px;
+    }
+    .logoImgBxTx h5 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .hdrLogo img {
+        max-width: 150px;
+        margin-right: 15px;
+    }
+    .logoImgBxTx p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 1100px){
+	
+}
+
+@media (max-width: 1024px){
+	.abtRt {
+        padding-left: 15px;
+    }
+    .abtRt_Tx p {
+        font-size: 15px;
+        line-height: 29px;
+        font-weight: 500;
+    }
+    .About_ImgTx p {
+        font-size: 15px;
+        line-height: 25px;
+        color: #848383;
+        font-weight: 300;
+        margin: 0;
+    }
+    .explor_Tx p {
+        font-size: 15px;
+    }
+    .sootingbx1 h3 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .sootingbx1 h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ourParter h1 {
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    .ourParter {
+        padding: 40px 0;
+    }
+    footer {
+        padding: 25px 0 20px;
+    }
+    .copyRtBx1 img {
+        max-width: 130px;
+    }
+    footer h4 {
+        font-size: 16px;
+    }
+    .search-panel__content {
+        top: 135px;
+        height: 80px;
+        padding: 0 15px;
+    }
+    .search-input__input input.search-field {
+        font-size: 20px;
+        height: 40px;
+    }
+    .search-input__input input.search-submit {
+        font-size: 14px;
+        top: -9px;
+    }
+    .js--mobile-menu-active .main {
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width: 991px){
+	.HdrBt {
+        flex-direction: column;
+        height: auto;
+        padding: 0px 10px 15px;
+    }
+    .logoImgDiv {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    .logoImgBx {
+        margin-left: 0;
+        padding: 15px 5px;
+        width: 33.33%;
+    }
+    .abtRt_Tx {
+        padding: 30px 15px;
+    }
+    footer h4 {
+        font-size: 15px;
+    }
+    .explorScn h1, .swiper-container h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .explorScn h6 {
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 12px;
+    }
+    .About_ImgTx {
+        width: 250px;
+    }
+    .social-links {
+        margin-right: 15px;
+    }
+    .social-links ul li a {
+        font-size: 13px;
+        height: 30px;
+        width: 30px;
+        line-height: 29px;
+    }
+    .skipCon {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .ClMenu {
+        font-size: 14px;
+    }
+    .contactus_lt_in h1, .Quick_tx h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 767px){
+	.ftrBx {
+        width: 50%;
+    }
+    .ftrBx3, .ftrBx4 {
+        margin-top: 15px;
+    }
+    .copyRt {
+        margin-top: 15px;
+    }
+    .copyRt {
+        flex-direction: column;
+    }
+    .copyRtBx2 {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .ourParter h1 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .sootingbx1 {
+        width: 100%;
+        height: auto;
+    }
+    .sootingbx1In {
+        padding: 25px 10px;
+    }
+    .sootingbx2 {
+        width: 100%;
+        height: auto;
+        padding: 15px 10px;
+    }
+    .sootingTx {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 85%;
+    }
+    .sootingScn {
+        height: auto;
+    }
+    .About_Img img {
+        height: auto !important;
+    }
+    .two .swiper-slide {
+        width: 400px;
+    }
+    .swiper-container {
+        padding-bottom: 50px;
+        padding-top: 35px;
+    }
+    .Quick_tx {
+        margin-top: 35px;
+    }
+    .contact_social a img {
+        max-width: 34px;
+    }
+    
+}   
+
+
+@media (max-width: 700px){
+	
+}
+
+@media (max-width: 640px){
+	
+}
+
+@media (max-width: 575px){
+	.ftrBx {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .ftrIn p {
+        display: table;
+        margin: 0 auto 20px;
+    }
+    .ftrBx3, .ftrBx4 {
+        margin-top: 0;
+    }
+    .logoImgBx {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .ClMenu {
+        display: none;
+    }
+    .skipCon {
+        margin-left: 0px;
+    }
+    .menu_icon {
+        width: 35px;
+    }
+
+    
+    .explorScn h1, .swiper-container h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .logoImgBx {
+        justify-content: center;
+    }
+    .logoImgDiv {
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width: 480px){
+	.skipCon {
+        font-size: 11px;
+    }
+    .two .swiper-slide {
+        width: 350px;
+    }
+}
+
+@media (max-width: 414px){
+	.skipCon {
+        display: none;
+    }
+	
+}
+@media (max-width: 412px){
+	.sootingTx {
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 360px){
+    .two .swiper-slide {
+        width: 300px;
+    }
+}

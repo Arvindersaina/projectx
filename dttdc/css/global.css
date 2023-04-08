@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+    font-family: 'Segoe Print';
+    src: url('../fonts/SegoePrint.woff2') format('woff2'),
+        url('../fonts/SegoePrint.woff') format('woff'),
+        url('../fonts/SegoePrint.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.woff2') format('woff2'),
+        url('../fonts/OpenSans.woff') format('woff'),
+        url('../fonts/OpenSans.ttf') format('truetype'),
+        url('../fonts/OpenSans.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Semibold.woff') format('woff'),
+        url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+        url('../fonts/OpenSans-Semibold.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff'),
+        url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+        url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+}
+
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, input, textarea {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}*/
+
+ol, ul {
+    list-style: none;
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+section {
+    overflow: hidden;
+}
+
+a {text-decoration:none;}
+.flt{float:left;}
+.fltr{float:right;}
+.clr{clear:both;}
+ol, ul{margin:0; padding:0;}
+a:hover{text-decoration:none;}
+a:focus{text-decoration:none;}
+ul li{list-style:none;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; }
+
+
+a, a:hover, a:focus{text-decoration: none;}
+* {
+    outline: 0;
+}
+.img img{width: 100%;}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section{
+    padding: 50px 0;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+.container2 {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+body h1 {
+    font-size: 32px;
+    line-height: 34px;
+    color: #333333;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+body h2 {
+    font-size: 22px;
+    line-height: 28px;
+    color: #3a3a3a;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+
+body h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #3a3a3a;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+body h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #ccc;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+body h5 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #3a3a3a;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+body h6 {
+    font-size: 17px;
+    color: #3a3a3a;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+body p {
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
